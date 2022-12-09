@@ -20,9 +20,9 @@
             $post_item = array(
                 'id'       => $id,
                 'name'     => $name,
-                'contact'  => $contact;
+                'contact'  => $contact,
                 'email'    => $email,
-                'program'  => $program
+                'program'  => $program,
             );
 
             array_push($post_arr['data'], $post_item);

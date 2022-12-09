@@ -19,11 +19,10 @@
             extract($row);
             $post_item = array(
                 'id'       => $id,
-                'title'     => $title,
-                'body'     => html_entity_decode($body),
-                'author'  => $author,
-                'category_id'    => $category_id,
-                'category_name'  => $category_name,
+                'name'     => $name,
+                'contact'  => $contact;
+                'email'    => $email,
+                'program'  => $program
             );
 
             array_push($post_arr['data'], $post_item);
